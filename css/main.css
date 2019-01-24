@@ -1,0 +1,230 @@
+/**GRID STYLES**/
+
+.full-width {
+  width: 1200px;
+  float: left;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+.header {
+    height: 650px;
+}
+
+#about {
+  height: 650px;
+}
+
+#work {
+  height: 650px;
+}
+
+#contact {
+  height: 250px;
+}
+
+/**LINK STYLES**/
+
+a {
+  color: #201b13;
+  font-family: 'Merriweather', serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #c6533b;
+}
+
+/**NAVIGATION STYLE**/
+
+nav {
+  float: right;
+  font-size: 22px;
+  padding: 25px 25px 0 0;
+  word-spacing: 50px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+/**BODY SECTION STYLES**/
+
+body {
+  background-color: #f7f5f2;
+  color: #201b13;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header h1 {
+  color: #201b13;
+  font-family: 'Merriweather', serif;
+  font-size: 30px;
+  padding-left: 50px;
+  padding-top: 25px;
+}
+
+.header h2 {
+  color: #c6533b;
+  font-family: 'Merriweather', serif;
+  font-size: 82px;
+  margin: auto;
+  padding: 200px 0 15px 50px;
+  word-spacing: 10px;
+}
+
+.header p {
+  color: #c6533b;
+  font-size: 36px;
+  margin: auto;
+  padding: 0 0 0 50px;
+}
+
+#about {
+  background-color: #96402e;
+}
+
+#about h2 {
+  color: #f7f5f2;
+  font-family: 'Merriweather', serif;
+  font-size: 36px;
+  padding: 75px 0 25px 0;
+  text-align: center;
+}
+
+#about p {
+  color: #f7f5f2;
+  font-size: 19px;
+  padding: 0 25px 0 50px;
+  text-align: justify;
+}
+
+#work h2 {
+    color: #201b13;
+    font-family: 'Merriweather', serif;
+    font-size: 36px;
+    padding: 50px 0 25px 0;
+    text-align: center;
+}
+
+#work img {
+  padding: 50px 50px;
+}
+
+#contact {
+  background-color: #96402e;
+}
+
+#contact h1 {
+  font-family: 'Montserrat', serif;
+  font-size: 16px;
+  font-weight: lighter;
+  padding: 10px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#contact h2 {
+  color: #f7f5f2;
+  font-family: 'Merriweather', serif;
+  font-size: 36px;
+  padding-top: 25px;
+  text-align: center;
+}
+
+#contact a {
+  color: #f7f5f2;
+}
+
+#contact a:hover {
+  color: #000000;
+}
+
+#contact p {
+  color: #f7f5f2;
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin: auto;
+  text-align: center;
+}
+
+/**IMAGE HOVER STYLES**/
+
+.img-wrapper {
+  position: relative;
+  width: 90%;
+}
+
+.image {
+  backface-visibility: hidden;
+  display: block;
+  height: auto;
+  opacity: 1;
+  transition: .5s ease;
+  width: 100%;
+}
+
+.text-wrapper {
+  opacity: 0;
+  position: absolute;
+  left: 64%;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transition: .5s ease;
+}
+
+.img-wrapper:hover .image {
+  opacity: 1;
+}
+
+.img-wrapper:hover .text-wrapper {
+    opacity: .9;
+}
+
+.text {
+  background-color: #c6533b;
+  color: #f7f5f2;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding: 50px 100px;
+}
+
+
+/**JUBILEE, ROGUE, HOLSTEE PAGE STYLES**/
+
+#jubilee-header {
+  height: 100px;
+}
+
+.jubilee img {
+  height: 80%;
+  width: 80%;
+  padding: 50px 50px;
+}
+
+.jubilee h3 {
+  color: #c6533b;
+  font-family: 'Merriweather', serif;
+  font-size: 26px;
+  letter-spacing: 2px;
+  padding: 100px 0 0 0;
+}
+
+.jubilee p {
+  color: #201b13;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  text-align: justify;
+}
